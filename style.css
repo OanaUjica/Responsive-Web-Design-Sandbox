@@ -1,0 +1,133 @@
+html, body{
+	margin:0;
+	padding:0;
+  font-family: "Libre Baskerville";
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#navigation, #header {
+  float: left;
+  background:#efefef;
+  margin: 10px;
+  padding: 10px;
+}
+
+#header {
+  font-size: 3vw;
+  width: 4vw;
+  height: 6vw;
+  letter-spacing: 3px;
+  text-align: center;
+  width: calc(50% - 100px);
+  margin-left: 80px;
+  padding-top: 2vw;
+}
+
+#navigation {
+  width: calc(50% - 100px);
+  margin-right: 80px;
+  height: 6vw;
+}
+
+#navigation li {
+  display: inline-block;
+  font-size: 1.1vw;
+  padding: 3vw 2vw 0vw 0vw;
+}
+
+.colored {
+  color: #FF1493;
+}
+
+#container, #image {
+  float: left;
+  background:#efefef;
+  margin: 10px;
+  padding: 10px;
+}
+
+#container {
+  width: calc(40% - 100px);
+  font-size: 1vw;
+  margin-left: 80px;
+  padding: 3vw 14vw 0vw 2vw;
+  height: 31vw;
+}
+
+#image {
+  width: calc(60% - 100px);
+  margin-right: 80px;
+  padding: 3vw 1vw 0vw 0vw;
+  height: 31vw;
+}
+
+#sprites, #contact {
+  float: left;
+  width: calc(50%);
+  height: 11.9vw;
+  background-color: #d7d7c1;
+}
+
+#sprites {
+  padding: 2vw 20vw 10vw 6.3vw;
+}
+
+#contact {
+
+}
+
+.spriteImage {
+  width: 34px;
+  height: 34px;
+  border: 1px solid silver;
+  display: inline-block;
+  border-radius: 24px;
+  background: url('sprites(1).png') no-repeat;
+}
+
+.socialMedia1 {
+    background-size: 434px;
+    background-position: -100px -21px;
+}
+.socialMedia2 {
+    background-size: 434px;
+    background-position: -140px -21px;
+}
+
+.socialMedia3 {
+    background-size: 434px;
+    background-position: -181px -21px;
+}
+
+.socialMedia4 {
+    background-size: 434px;
+    background-position: -221px -21px;
+}
+
+.socialMedia5 {
+    background-size: 434px;
+    background-position: -261px -21px;
+}
+
+.socialMedia6 {
+    background-size: 434px;
+    background-position: -302px -21px;
+}
+
+.socialMedia7 {
+    background-size: 434px;
+    background-position: -221px -102px;
+}
+
+.socialMedia8 {
+    background-size: 434px;
+    background-position: -262px -102px;
+}
+
+.socialMedia9 {
+    background-size: 434px;
+    background-position: -302px -102px;
+}
